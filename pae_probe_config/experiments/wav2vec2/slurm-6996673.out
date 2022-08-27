@@ -1,0 +1,13 @@
+run_mboshi.sh: Preparing config files...
+run_mboshi.sh: Running classification experiments...
+Clean logs folder ... Done!
+front_svm
+high_svm
+manner_svm
+place_svm
+round_svm
+static_svm
+voice_svm
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6996673 ON grs2 CANCELLED AT 2022-02-08T13:43:32 ***
+slurmstepd: error: *** STEP 6996673.0 ON grs2 CANCELLED AT 2022-02-08T13:43:32 ***

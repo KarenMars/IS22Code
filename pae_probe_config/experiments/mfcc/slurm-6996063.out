@@ -1,0 +1,13 @@
+run_cross.sh: Preparing config files...
+run_cross.sh: Running classification experiments...
+Clean logs folder ... Done!
+front_svm
+high_svm
+manner_svm
+place_svm
+round_svm
+static_svm
+voice_svm
+slurmstepd: error: *** STEP 6996063.0 ON grs1 CANCELLED AT 2022-02-07T16:06:14 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6996063 ON grs1 CANCELLED AT 2022-02-07T16:06:14 ***

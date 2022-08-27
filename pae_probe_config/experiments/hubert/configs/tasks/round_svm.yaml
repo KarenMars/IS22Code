@@ -1,0 +1,16 @@
+batch_size: 1024
+classifier: svm
+context_size: 0
+task: round
+test_data:
+  mboshi:
+    feats: ../../feats/mboshi/hubert-base-ls960
+    phones: ../../data_config/Mboshi/mboshi/phones
+    step: 0.02
+    uris: ../../data_config/Mboshi/lists/test_full.ids
+train_data:
+  timit:
+    feats: ../../feats/timit/hubert-base-ls960
+    phones: ../../data_config/TIMIT/timit/phones
+    step: 0.02
+    uris: ../../data_config/TIMIT/lists/train.ids

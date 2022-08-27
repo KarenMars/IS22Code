@@ -1,0 +1,16 @@
+batch_size: 1024
+classifier: svm
+context_size: 5
+task: front
+test_data:
+  mboshi:
+    feats: ../../feats/mboshi/mfcc
+    phones: ../../data_config/Mboshi/mboshi/phones
+    step: 0.01
+    uris: ../../data_config/Mboshi/lists/test_full.ids
+train_data:
+  timit:
+    feats: ../../feats/timit/mfcc
+    phones: ../../data_config/TIMIT/timit/phones
+    step: 0.01
+    uris: ../../data_config/TIMIT/lists/train.ids

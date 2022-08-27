@@ -1,0 +1,10 @@
+run_mboshi.sh: Preparing config files...
+run_mboshi.sh: Running classification experiments...
+Clean logs folder ... Done!
+front_svm
+high_svm
+manner_svm
+place_svm
+round_svm
+static_svm
+voice_svm

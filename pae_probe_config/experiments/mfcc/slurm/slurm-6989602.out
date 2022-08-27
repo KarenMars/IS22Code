@@ -1,0 +1,10 @@
+run_cross_front.sh: Preparing config files...
+run_cross_front.sh: Running classification experiments...
+Clean logs folder ... Done!
+front_svm
+high_svm
+manner_svm
+place_svm
+round_svm
+static_svm
+voice_svm

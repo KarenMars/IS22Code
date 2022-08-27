@@ -1,0 +1,10 @@
+run_timit.sh: Preparing config files...
+run_timit.sh: Running classification experiments...
+Clean logs folder ... Done!
+front_svm
+high_svm
+manner_svm
+place_svm
+round_svm
+static_svm
+voice_svm

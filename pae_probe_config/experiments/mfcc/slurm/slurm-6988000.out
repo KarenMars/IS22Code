@@ -1,0 +1,11 @@
+run_debug.sh: Preparing config files...
+run_debug.sh: Running classification experiments...
+Clean logs folder ... Done!
+front_svm
+high_svm
+manner_svm
+place_svm
+round_svm
+static_svm
+voice_svm
+running voice_svm

@@ -1,0 +1,30 @@
+run_timit.sh: Preparing config files...
+run_timit.sh: Running classification experiments...
+rm: cannot remove 'timit_timit/logs/front/front_svm.stdout': Device or resource busy
+rm: cannot remove 'timit_timit/logs/front/front_svm.stderr': Device or resource busy
+rm: cannot remove 'timit_timit/logs/high/high_svm.stdout': Device or resource busy
+rm: cannot remove 'timit_timit/logs/high/high_svm.stderr': Device or resource busy
+rm: cannot remove 'timit_timit/logs/manner/manner_svm.stdout': Device or resource busy
+rm: cannot remove 'timit_timit/logs/manner/manner_svm.stderr': Device or resource busy
+rm: cannot remove 'timit_timit/logs/place/place_svm.stdout': Device or resource busy
+rm: cannot remove 'timit_timit/logs/place/place_svm.stderr': Device or resource busy
+rm: cannot remove 'timit_timit/logs/round/round_svm.stdout': Device or resource busy
+rm: cannot remove 'timit_timit/logs/round/round_svm.stderr': Device or resource busy
+rm: cannot remove 'timit_timit/logs/static/static_svm.stdout': Device or resource busy
+rm: cannot remove 'timit_timit/logs/static/static_svm.stderr': Device or resource busy
+Clean logs folder ... Done!
+front_svm
+high_svm
+mkdir: cannot create directory 'timit_timit/logs/high': File exists
+manner_svm
+mkdir: cannot create directory 'timit_timit/logs/manner': File exists
+place_svm
+mkdir: cannot create directory 'timit_timit/logs/place': File exists
+round_svm
+mkdir: cannot create directory 'timit_timit/logs/round': File exists
+static_svm
+mkdir: cannot create directory 'timit_timit/logs/static': File exists
+voice_svm
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 6996107.0 ON grs2 CANCELLED AT 2022-02-07T18:32:14 ***
+slurmstepd: error: *** JOB 6996107 ON grs2 CANCELLED AT 2022-02-07T18:32:14 ***
